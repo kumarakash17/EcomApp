@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sellers.SellerCategoryActivity">
+
+    <TextView
+        android:id="@+id/category_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Add New Category"
+        android:textColor="@color/green"
+        android:textSize="20dp" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/category_list">
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@color/green"
+            android:text=" Mobiles and Computers"></TextView>
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:id="@+id/linear1"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/placehldrimage"
+                    android:id="@+id/mobiles" />
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/placehldrimage"
+                    android:id="@+id/mobiles_accesseries"
+                    />
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/renewed_mobiles"
+                    android:src="@drawable/placehldrimage"
+                   />
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/placehldrimage"
+                    android:id="@+id/laptops"
+                    />
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/powerbanks"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/placehldrimage"
+                    />
+                <ImageView
+                    android:layout_width="100dp"
+                    android:src="@drawable/placehldrimage"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/earphones"
+                    />
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/placehldrimage"
+                    android:id="@+id/laptop_accesseries"
+                    />
+                <ImageView
+                    android:layout_width="100dp"
+                    android:src="@drawable/placehldrimage"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/tablets"
+                    />
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/placehldrimage"
+                    android:id="@+id/office_supplies_and_storages"
+                    />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:src="@drawable/placehldrimage"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/pendrivesAndStorages"
+                    />
+
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/wearable_devices"
+                    android:src="@drawable/placehldrimage"
+                    />
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Tv Appliances and electronics"
+            android:textSize="20dp"
+            android:textColor="@color/green"></TextView>
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:id="@+id/linear2"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/placehldrimage"
+                    android:id="@+id/all_electronics"
+                    />
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/placehldrimage"
+                    android:id="@+id/televisions"
+                    />
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/placehldrimage"
+                    android:id="@+id/air_conditioner"
+                    />
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/refrigeretors"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/placehldrimage"
+
+                    />
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/headphones"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/placehldrimage"
+
+                    />
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/placehldrimage"
+                    android:id="@+id/wire"
+
+                    />
+            </LinearLayout>
+
+        </HorizontalScrollView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Men Fashion"
+            android:textSize="20dp"
+            android:textColor="@color/green"></TextView>
+
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+
+                android:id="@+id/linear3"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/placehldrimage"
+                    android:id="@+id/shirts"
+                    />
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/placehldrimage"
+
+                    android:id="@+id/tshirts"
+                    />
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/jeans"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/placehldrimage"
+
+                    />
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/shorts"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/placehldrimage"
+
+                    />
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/innerwear"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/placehldrimage"
+
+                    />
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/winterwear"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/placehldrimage"
+                    />
+            </LinearLayout>
+
+        </HorizontalScrollView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Womens Fashion"
+            android:textSize="20dp"
+            android:textColor="@color/green"></TextView>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:id="@+id/linear4"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/saarees"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/placehldrimage"
+                    />
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/womens_jeans"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/placehldrimage"
+
+                    />
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/tops"
+                    android:src="@drawable/placehldrimage"
+
+
+                    />
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/western_wear"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/placehldrimage"
+                    />
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/kurta"
+                    android:src="@drawable/placehldrimage"
+
+                    />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/WOMENinnerwear"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/placehldrimage"
+
+                    />
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Groceries"
+            android:textSize="20dp"
+            android:textColor="@color/green"></TextView>
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:id="@+id/linear7"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/vegetables"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/placehldrimage"
+                    />
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/placehldrimage"
+                    android:id="@+id/fruits"
+                    />
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/placehldrimage"
+                    android:id="@+id/spices"
+
+                   />
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/snacs"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/placehldrimage"
+
+                    />
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/placehldrimage"
+                    android:id="@+id/sweets"
+                    />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/placehldrimage"
+                    android:id="@+id/drinks" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Other Products"
+            android:textSize="20dp"
+            android:textColor="@color/green"></TextView>
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/lrr">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/placehldrimage"
+                    android:id="@+id/other_products"
+                    />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/placehldrimage"
+                    android:id="@+id/new_products_coming_soon" />
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

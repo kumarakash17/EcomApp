@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.user.ecomapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/applogo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EcomApp"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Admins.AdminTotalAmountActivity"></activity>
+        <activity android:name=".Admins.AdminSellerActivity" />
+        <activity android:name=".Sellers.SellerUnverifiedProductsActivity" />
+        <activity android:name=".Sellers.SellerOrderActivity" />
+        <activity android:name=".Buyer.ParticularCategory" />
+        <activity android:name=".Buyer.CategoryActivity" />
+        <activity
+            android:name=".Sellers.SellerHomeActivity"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity android:name=".Sellers.SellerLoginActivity" />
+        <activity android:name=".Sellers.SellerRegisterActivity" />
+        <activity android:name=".Buyer.splashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Buyer.CartActivity" />
+        <activity android:name=".Buyer.ConfirmFinalOrderActivity" />
+        <activity android:name=".Buyer.ProductDetailsActivity" />
+        <activity android:name=".Buyer.SearchActivity" />
+        <activity android:name=".Buyer.SettingActivity" />
+        <activity android:name=".Buyer.MainActivity" />
+        <activity android:name=".Buyer.NewHomeActivity" />
+        <activity android:name=".Admins.AdminMaintainProductsActivity" />
+        <activity android:name=".Admins.AdminUserProductActivity" />
+        <activity android:name=".Admins.AdminCheckNewOrderActivity" />
+        <activity
+            android:name=".Admins.AdminHomeActivity"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity android:name=".Sellers.SellerCategoryActivity" />
+        <activity android:name=".Sellers.SellerAddNewProductActivity" />
+        <activity android:name=".PhoneRegisterLogin.PhoneRegisterActivity" />
+        <activity android:name=".PhoneRegisterLogin.PhoneLoginActivity" />
+    </application>
+
+</manifest>

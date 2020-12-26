@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/ordres"
+    android:icon="@drawable/ic_baseline_shopping_basket_24"
+    android:title="Orders"></item>
+    <item
+        android:id="@+id/goout"
+        android:icon="@drawable/ic_baseline_golf_course_24"
+        android:title="GoOut"></item>
+    <item
+        android:id="@+id/videos"
+        android:icon="@drawable/ic_baseline_slow_motion_video_24"
+        android:title="Videos"></item>
+    <item
+        android:id="@+id/gold"
+        android:icon="@drawable/ic_baseline_attach_money_24"
+        android:title="Gold"></item>
+
+
+
+
+</menu>

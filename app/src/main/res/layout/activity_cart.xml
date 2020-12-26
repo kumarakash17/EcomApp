@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Buyer.CartActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/total"
+        android:background="@color/green"
+        android:layout_alignParentTop="true">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total Price = "
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:id="@+id/total_price"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp"/>
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:scrollbars="vertical"
+        android:id="@+id/cart_list"
+        android:layout_above="@id/confirm_product_button"
+        android:layout_below="@id/total"
+        >
+
+    </androidx.recyclerview.widget.RecyclerView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:text="Congratulation your order has been place, you will get your order at doorstep soon"
+        android:textColor="@color/red"
+        android:textSize="20dp"
+        android:visibility="gone"
+        android:id="@+id/txtMessage"
+        android:layout_centerInParent="true"
+        android:textAlignment="center"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:id="@+id/confirm_product_button"
+        android:text="Next"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:background="@drawable/skip_button"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

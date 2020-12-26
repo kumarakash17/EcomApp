@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Buyer.ProductDetailsActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/item_product_name"
+            android:text="Name"
+            android:textColor="@color/green"
+            android:layout_marginTop="10dp"
+            android:textSize="24dp"
+            android:textAlignment="center"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/item_image"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/item_product_description"
+            android:text="Description"
+            android:textColor="@color/green"
+            android:textSize="24dp"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/item_product_price"
+            android:layout_marginTop="10dp"
+            android:text="Price"
+            android:textSize="24dp"
+            android:textColor="@color/green"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/item_product_weight"
+            android:text="Weight"
+            android:textColor="@color/green"
+            android:layout_marginTop="10dp"
+            android:textSize="24dp"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/item_product_duration"
+            android:text="Estimated time"
+            android:textColor="@color/green"
+            android:layout_marginTop="10dp"
+            android:textSize="24dp"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/item_product_usage"
+            android:text="New or Used"
+            android:textSize="24dp"
+            android:textColor="@color/green"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/item_seller_id"
+            android:text="SID"
+            android:textSize="24dp"
+            android:textColor="@color/green"
+            android:textAlignment="center"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:hint="Enter Number of items you want:"
+            android:textAlignment="center"
+            android:inputType="number"
+            android:textColorHint="@color/white"
+            android:textSize="20dp"
+            android:id="@+id/item_product_quantity"
+            android:background="@drawable/skip_button"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center">
+
+
+        </EditText>
+
+        <Button
+            android:id="@+id/addtocart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:background="@color/green"
+            android:text="Add to cart"
+            android:textColor="@color/white"
+            android:textAllCaps="false" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>

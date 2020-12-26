@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sellers.SellerRegisterActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/seller_login_begin"
+        android:id="@+id/scroll">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/seller_image"
+                android:layout_width="399dp"
+                android:layout_height="84dp"
+                android:src="@drawable/thankyoukart_saleonline" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Seller Registration"
+                android:id="@+id/sellerRegistration"
+                android:layout_below="@id/seller_image"
+                android:textSize="20sp"
+                android:textColor="@color/red"
+                android:textStyle="bold"
+                android:textAlignment="center"/>
+            <EditText
+                android:layout_width="380dp"
+                android:layout_marginLeft="15dp"
+                android:layout_height="wrap_content"
+                android:hint="Name"
+                android:textSize="20sp"
+                android:inputType="text"
+                android:id="@+id/seller_name"
+                android:textColorHint="@color/orange"
+                android:layout_below="@id/sellerRegistration"/>
+
+            <EditText
+                android:layout_width="380dp"
+                android:layout_marginLeft="15dp"
+                android:layout_height="wrap_content"
+                android:hint="Phone No"
+                android:inputType="phone"
+                android:textSize="20sp"
+                android:id="@+id/seller_phone"
+                android:textColorHint="@color/orange"
+                android:layout_below="@id/sellerRegistration"/>
+
+            <EditText
+                android:layout_width="380dp"
+                android:layout_marginLeft="15dp"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:textSize="20sp"
+
+                android:id="@+id/seller_email"
+                android:textColorHint="@color/orange"
+                android:layout_below="@id/sellerRegistration"/>
+
+            <EditText
+                android:layout_width="380dp"
+                android:layout_marginLeft="15dp"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:inputType="text"
+                android:textSize="20sp"
+                android:id="@+id/seller_password"
+                android:textColorHint="@color/orange"
+                android:layout_below="@id/sellerRegistration"/>
+
+            <EditText
+                android:layout_width="380dp"
+                android:layout_marginLeft="15dp"
+                android:layout_height="wrap_content"
+                android:hint="Address"
+                android:inputType="text"
+                android:textSize="20sp"
+                android:id="@+id/seller_address"
+                android:textColorHint="@color/orange"
+                android:layout_below="@id/sellerRegistration"/>
+
+            <EditText
+                android:layout_width="380dp"
+                android:layout_marginLeft="15dp"
+                android:layout_height="wrap_content"
+                android:hint="Pan no"
+                android:textSize="20sp"
+                android:inputType="text"
+                android:id="@+id/seller_pan_no"
+                android:textColorHint="@color/orange"
+                android:layout_below="@id/sellerRegistration"/>
+
+            <EditText
+                android:layout_width="380dp"
+                android:layout_marginLeft="15dp"
+                android:layout_height="wrap_content"
+                android:hint="GST Number"
+                android:inputType="text"
+                android:textSize="20sp"
+                android:id="@+id/gst_num"
+                android:textColorHint="@color/orange"
+                android:layout_below="@id/sellerRegistration"/>
+            <EditText
+                android:layout_width="380dp"
+                android:layout_marginLeft="15dp"
+                android:layout_height="wrap_content"
+                android:hint="Bank account no"
+                android:inputType="text"
+                android:textSize="20sp"
+                android:id="@+id/seller_bank_Account"
+                android:textColorHint="@color/orange"
+                android:layout_below="@id/sellerRegistration"/>
+
+            <EditText
+                android:layout_width="380dp"
+                android:layout_marginLeft="15dp"
+                android:layout_height="wrap_content"
+                android:hint="IFSC code"
+                android:inputType="text"
+                android:textSize="20sp"
+                android:id="@+id/ifsc_code"
+                android:textColorHint="@color/orange"
+                android:layout_below="@id/sellerRegistration"/>
+
+            <EditText
+                android:layout_width="380dp"
+                android:layout_marginLeft="15dp"
+                android:layout_height="wrap_content"
+                android:hint="Phone number (linked to account number)"
+                android:textSize="20sp"
+                android:inputType="phone"
+                android:id="@+id/seller_phone_number_linked_to_account_number"
+                android:textColorHint="@color/orange"
+                android:layout_below="@id/sellerRegistration"/>
+            <EditText
+                android:layout_width="380dp"
+                android:layout_marginLeft="15dp"
+                android:layout_height="wrap_content"
+                android:hint="Email (linked to account number)"
+                android:inputType="textEmailAddress"
+                android:textSize="20sp"
+                android:id="@+id/seller_mail_linked_to_account_number"
+                android:textColorHint="@color/orange"
+                android:layout_below="@id/sellerRegistration"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Register"
+                android:id="@+id/seller_registration"
+                android:layout_margin="15dp"
+                android:backgroundTint="@color/green"
+                android:textSize="25dp"
+                android:textStyle="normal"
+                android:textAllCaps="false"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/seller_login_begin"
+
+        android:layout_margin="15dp"
+        android:backgroundTint="@color/green"
+        android:textSize="25dp"
+        android:layout_alignParentBottom="true"
+        android:textStyle="normal"
+        android:textAllCaps="false"/>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_maintain_pro"
+            android:title="Maintain products" />
+        <item
+            android:id="@+id/nav_check_order"
+            android:title="Check order"
+            android:icon="@drawable/order"/>
+        <item
+            android:id="@+id/nav_amount"
+            android:title="Total amount"
+            android:icon="@drawable/ic_baseline_attach_money_24"/>
+        <item
+            android:id="@+id/nav_seller"
+            android:title="Sellers"
+            android:icon="@drawable/profile"/>
+        <item
+            android:id="@+id/nav_admin_logout"
+            android:title="Logout"
+            android:icon="@drawable/logout"/>
+    </group>
+
+
+</menu>

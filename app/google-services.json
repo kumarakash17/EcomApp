@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "143692651149",
+    "firebase_url": "https://mystoreforquicky.firebaseio.com",
+    "project_id": "mystoreforquicky",
+    "storage_bucket": "mystoreforquicky.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:143692651149:android:c669186995bd25e89d60c4",
+        "android_client_info": {
+          "package_name": "com.user.ecomapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "143692651149-vi60fmmqk9di3rirjsnoqthv7alos116.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLDoIq95UlD-O80AIIeU2m9XWWi6yusvs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "143692651149-vi60fmmqk9di3rirjsnoqthv7alos116.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
